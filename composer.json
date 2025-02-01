@@ -1,0 +1,12 @@
+{
+    "name": "habiba/session1",
+    "description": "for test",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Habiba\\Session1\\": "src/"
+        }
+    },
+    "require": {}
+}
