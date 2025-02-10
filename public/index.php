@@ -2,8 +2,8 @@
 // 
 
 require_once '../vendor/autoload.php'; // all files 
-use Habiba\Session1\Request;
-use Habiba\Session1\App;
+use mvc\Session1\Request;
+use mvc\Session1\App;
 $app = new App(new Request);
 
 
