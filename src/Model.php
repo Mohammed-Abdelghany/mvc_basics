@@ -1,6 +1,6 @@
 <?php
 
-namespace Habiba\Session1;
+namespace Mvc\Session1;
 
 abstract class Model {
 
