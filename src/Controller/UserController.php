@@ -1,9 +1,9 @@
 <?php
 
-namespace Habiba\Session1\Controller;
+namespace Mvc\Session1\Controller;
 
-use Habiba\Session1\Model\User;
-use Habiba\Session1\View;
+use Mvc\Session1\Model\User;
+use Mvc\Session1\View;
 
 class UserController {
 
