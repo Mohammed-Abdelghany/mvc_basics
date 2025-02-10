@@ -1,5 +1,5 @@
 <?php
-namespace Habiba\Session1;
+namespace Mvc\Session1;
 
 class Request {
 
