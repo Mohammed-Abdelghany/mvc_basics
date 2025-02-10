@@ -1,6 +1,6 @@
 <?php
 
-namespace Habiba\Session1;
+namespace Mvc\Session1;
 
 class App {
     private $url ,$controller ,$method;
@@ -19,7 +19,7 @@ class App {
 
     }
     public function callMethod() {
-        $this->controller = "Habiba\Session1\Controller\\".$this->controller;
+        $this->controller = "Mvc\Session1\Controller\\".$this->controller;
             if(class_exists($this->controller)){
                 $controllerWithName = new $this->controller; // object
                 if(method_exists($controllerWithName,$this->method)){
