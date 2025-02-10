@@ -2,8 +2,8 @@
 // 
 
 require_once '../vendor/autoload.php'; // all files 
-use mvc\Session1\Request;
-use mvc\Session1\App;
+use Mvc\Session1\Request;
+use Mvc\Session1\App;
 $app = new App(new Request);
 
 
